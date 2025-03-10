@@ -79,6 +79,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
+# EvolutionX flags
+BUILD_BCR := true
+EVO_BUILD_TYPE := Official
+TARGET_USES_MINI_GAPPS := true
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
