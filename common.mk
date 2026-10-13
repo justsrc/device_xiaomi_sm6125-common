@@ -90,7 +90,7 @@ PRODUCT_PACKAGES += \
 # EvolutionX flags
 BUILD_BCR := true
 EVO_BUILD_TYPE ?= Unofficial
-TARGET_USES_MINI_GAPPS := true
+TARGET_USES_MINI_GAPPS := false
 
 # fastbootd
 PRODUCT_PACKAGES += \
